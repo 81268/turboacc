@@ -26,9 +26,6 @@ LUCI_DEPENDS:= \
 	+luci +luci-compat \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_BBR_CCA:kmod-tcp-bbr \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_OFFLOADING:kmod-nft-offload \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_SHORTCUT_FE:kmod-fast-classifier \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_SHORTCUT_FE_CM:kmod-shortcut-fe-cm \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_SHORTCUT_FE_DRV:kmod-shortcut-fe-drv \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_NFT_FULLCONE:kmod-nft-fullcone
 LUCI_PKGARCH:=all
 
